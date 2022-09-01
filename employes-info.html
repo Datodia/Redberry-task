@@ -8,6 +8,10 @@
     <link href="//db.onlinewebfonts.com/c/9da41c570d5a221cb2486d78769a076d?family=Neue+Helvetica" rel="stylesheet" type="text/css"/>
     <link href="http://fonts.cdnfonts.com/css/helvetica-neue-9" rel="stylesheet">
     <title>Document</title>
+
+
+
+
 </head>
 <body>
     <header>
@@ -22,40 +26,61 @@
     </header>
 
     <div class="emloyes-container">
-        <form id="empl-form" action="">
+        <form id="empl-form" action="" onsubmit="return validate();">
             <div class="names">
                 <div class="name">
                     <h1>სახელი</h1>
                     <input id="nameInput" type="text" placeholder="გრიშა">
+                    <span id="message1" style="color: red">
+                    </span>
+                    <span id="message3" style="color: red">
+                    </span>
                     <p>მინიმუმ 2 სიმბოლო, ქართული ასოები</p>
                 </div>
                 <div class="name">
                     <h1>გვარი</h1>
-                    <input type="text" placeholder="ბაგრატიონი">
+                    <input type="text" placeholder="ბაგრატიონი" id="lastnameInput">
+                    <span id="message2" style="color: red">
+                    </span>
+                    <span id="message4" style="color: red">
+                    </span>
                     <p>მინიმუმ 2 სიმბოლო, ქართული ასოები</p>
                 </div>
             </div>
 
             <div class="teams">
                 <label for="teams">თიმი</label>
-                <select list="teams" class="teams-select">
+                <select list="teams" class="teams-select" id="ddlView1">
                 </select>
-            </div>
-            <div class="teams">
-                <label for="teams">პოზიცია</label>
-                <select list="teams" class="teams-select">
-                </select>
+                <span id="message5" style="color: red">
+                </span>
             </div>
 
-            <div class="emails">
+            <div class="teams">
+                <label for="teams">პოზიცია</label>
+                <select list="teams" class="teams-select" id="ddlView2">
+                </select>
+                <span id="message6" style="color: red">
+                </span>
+            </div>
+
+            <div class="contactInfo">
                 <div class="email">
                     <h1>მეილი</h1>
-                    <input type="email" placeholder="grish666@redberry.ge">
+                    <input type="email" placeholder="grish666@redberry.ge" id="email">
+                    <span id="message7" style="color: red">
+                    </span>
+                    <span id="message9" style="color: red">
+                    </span>
                     <p>უნდა მთავრდებოდეს @redberry.ge-ით</p>
                 </div>
-                <div class="email">
+                <div class="contactNo">
                     <h1>ტელეფონის ნომერი</h1>
-                    <input type="email" placeholder="+995 598 00 07 01">
+                    <input type="text" placeholder="+995 598 00 07 01" id="contactNo">
+                    <span id="message8" style="color: red">
+                    </span>
+                    <span id="message10" style="color: red">
+                    </span>
                     <p>უნდა აკმაყოფილებდეს ქართული მობ-ნომრის ფორმატს</p>
                 </div>
             </div>
