@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="//db.onlinewebfonts.com/c/9da41c570d5a221cb2486d78769a076d?family=Neue+Helvetica" rel="stylesheet" type="text/css"/>
+    <link href="http://fonts.cdnfonts.com/css/helvetica-neue-9" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="back-btn">
+            <a href="employes-info.html"><img src="assets/back-btn.svg" alt=""></a>
+        </div>
+        <div class="infos">
+            <a href="employes-info.html">თანამშრომლების ინფო</a>
+            <a href="laptops-info.html">ლეპტოპის მახასიათებლები</a>
+        </div>
+        <div class="line" style="margin-left: 360px;"></div>
+    </header>
+
+    <div class="laptops-container">
+        <form action="">
+            <div class="upload" for="file-upload">
+                <h1>ჩააგდე ან ატვირთე ლეპტოპის ფოტო</h1>
+                <input type="file" id="file-upload" />
+            </div>
+
+            <div class="names">
+                <div class="name">
+                    <h1>ლეპტოპის სახელი</h1>
+                    <input type="text" placeholder="HP">
+                    <p>ლათინური ასოები, ციფრები, !@#$%^&*()_+= </p>
+                </div>
+                <div class="lap-brands">
+                    <label for="brands">ლეპტოპის ბრენდი</label>
+                    <select list="brand" class="brand-select">
+                    </select>
+                </div>
+            </div>
+
+            <div class="line-2"></div>
+
+            <div class="cpu-info">
+                <div class="cpu">
+                    <label for="">CPU</label>
+                    <select name="" id=""></select>
+                </div>
+                <div class="cpu-core">
+                    <h1>CPU-ს ბირთვი</h1>
+                    <input type="number" placeholder="14">
+                    <p>მხოლოდ ციფრები</p>
+                </div>
+                <div class="cpu-core">
+                    <h1>CPU-ს ნაკადი</h1>
+                    <input type="number" placeholder="365">
+                    <p>მხოლოდ ციფრები</p>
+                </div>
+            </div>
+
+            <div class="ram-info">
+                <div class="ram">
+                    <h1>ლეპტოპის RAM (GB)</h1>
+                    <input type="number" placeholder="16">
+                    <p>მხოლოდ ციფრები</p>
+                </div>
+                <div class="memory-type">
+                    <h1>მეხსიერების ტიპი</h1>
+                    <div class="radios">
+                        <input type="radio" name="memory" id="ssd" value="SSD">
+                        <label for="sdd">SSD</label>
+                        <input type="radio" name="memory" id="hdd" value="HDD">
+                        <label for="hdd">HDD</label>
+                    </div>
+                </div>
+            </div>
+            <div class="line-2"></div>
+
+            <div class="dates">
+                <div class="date">
+                    <h1>შეძენის რიცხვი (არჩევითი)</h1>
+                    <input type="date" placeholder="დდ/თთ/წწწწ">
+                </div>
+                <div class="price">
+                    <h1>ლეპტოპის ფასი</h1>
+                    <input type="number" placeholder="0000">
+                    <p>მხოლოდ ციფრები</p>
+                </div>
+            </div>
+
+            <div class="laptop">
+                <h1>ლეპტოპის მდგომარეობა</h1>
+                <div class="radios">
+                    <input type="radio" name="new" id="new" value="new">
+                    <label for="new">ახალი</label>
+                    <input type="radio" name="new" id="old" value="old">
+                    <label for="old">მეორადი</label> 
+                </div>
+            </div>
+
+
+            <div class="next-prev">
+                <div class="prev">
+                    <a href="employes-info.html">უკან</a>
+                </div>
+                <div class="next">
+                    <a href="popup.html">შემდეგი</a>
+                </div>
+            </div>
+            
+
+            <footer>
+                <div class="rocketer-logo">
+                    <img src="assets/rocketer-logo.svg" alt="">
+                </div>
+            </footer>
+        </form>
+    </div>
+    
+</body>
+</html>

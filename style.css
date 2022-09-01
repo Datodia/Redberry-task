@@ -1,0 +1,466 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #eeeded;
+
+}
+
+.landing-container {
+    width: 1980px;
+    height: 1080px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.landing-container .logo {
+    margin-top: 79px;
+    margin-bottom: 85px;
+}
+
+.landing-container .logo img {
+    width: 112px;
+    height: 18px;
+}
+
+.landing-container .logo-2 {
+    width: 781px;
+    height: 482px;
+    margin-bottom: 123px;
+    background-image: url(assets/landing-logo.svg);
+}
+
+.landing-container a {
+    width: 387px;
+    height: 40px;
+    background-color: #62A1EB;
+    margin-bottom: 26px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Helvetica Neue';
+}
+
+header .back-btn {
+    margin-top: 53px;
+    margin-left: 70px;
+}
+
+header .infos {
+    width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .infos a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: 'Helvetica Neue';
+    font-weight: 700;
+}
+
+header .line {
+    width: 185px;
+    height: 2px;
+    background-color: black;
+    transform: translate(677px, 10px);
+}
+
+.emloyes-container {
+    width: 1226px;
+    height: 973px;
+    background-color: white;
+    margin: auto;
+    margin-top: 42px;
+}
+
+.emloyes-container form .names,
+.laptops-container form .names {
+    display: flex;
+    justify-content: center;
+    gap: 63px;
+}
+
+.emloyes-container form .names .name h1,
+.laptops-container form .names h1 {
+    font-size: 18px;
+    font-family: 'Helvetica Neue';
+    margin-top: 96px;
+    margin-bottom: 10px;
+}
+
+.emloyes-container form .names .name p,
+.emails .email p,
+.laptops-container form .names p {
+    font-size: 14px;
+    font-family: 'Helvetica Neue';
+    margin-top: 8px;
+    color: #2E2E2E;
+}
+
+.emloyes-container form .names .name input,
+.laptops-container form .names input {
+    width: 408px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 0 0 0 20px;
+}
+
+::placeholder {
+    font-size: 16x;
+}
+
+.emloyes-container form .teams {
+    width: 920px;
+    height: 60px;
+    margin: auto;
+    border: 2px solid black;
+    display: flex;
+    gap: 640px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #EBEBEB;
+    border-radius: 10px;
+    margin-top: 52px;
+}
+
+.emloyes-container form .teams select {
+    width: 150px;
+    height: 40px;
+    background: none;
+    border: none;
+}
+
+.emloyes-container form .emails .email {
+    width: 924px;
+    height: 130px;
+    margin: auto;
+}
+
+.emloyes-container form .emails .email h1 {
+    font-size: 18px;
+    font-family: 'Helvetica Neue';
+    margin-top: 51px;
+    margin-bottom: 10px;
+}
+
+.emloyes-container form .emails .email input {
+    width: 900px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 0 0 0 20px;
+}
+
+.emloyes-container form .next,
+.laptops-container form .next {
+    width: 176px;
+    height: 60px;
+    background-color: #62A1EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-left: 900px;
+    margin-top: 60px;
+}
+
+.emloyes-container form .next a,
+.laptops-container form .next a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Helvetica Neue';
+}
+
+.laptops-container form .next-prev .prev a {
+    text-decoration: none;
+    color: #62A1EB;
+    font-size: 18px;
+    font-family: 'Helvetica Neue';
+    line-height: 21px;
+}
+
+.laptops-container form .next-prev .prev {
+    transform: translate(157px, 104px);
+}
+
+footer .rocketer-logo {
+    width: 85px;
+    height: 85px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.laptops-container {
+    width: 1226px;
+    height: 1571px;
+    background-color: white;
+    margin: auto;
+    margin-top: 42px;
+}
+
+.laptops-container form .upload {
+    width: 878px;
+    height: 423px;
+    margin: auto;
+    border: 2px dashed #4386A9;
+    border-radius: 18px;
+    transform: translateY(60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.laptops-container form .upload h1 {
+    width: 195px;
+    height: 76px;
+    color: #4386A9;
+    font-size: 20px;
+    font-family: 'Helvetica Neue';
+}
+
+.laptops-container form .upload input {
+    color: transparent;
+}
+
+.laptops-container form .upload input::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.laptops-container form .upload input::before {
+    content: 'ატვირთე';
+    color: white;
+    display: inline-block;
+    border: 1px solid #999;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 233px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #62A1EB;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.laptops-container form .upload input:active {
+    outline: 0;
+}
+
+.laptops-container form .names .lap-brands {
+    background-color: #EBEBEB;
+    width: 400px;
+    height: 60px;
+    margin-top: 130px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.laptops-container form .names .lap-brands label {
+    font-size: 21px;
+    color: black;
+    font-family: 'Helvetica Neue';
+}
+
+.laptops-container form .names .lap-brands select {
+    width: 50px;
+    height: 40px;
+    background: none;
+    border: none;
+    font-weight: 500;
+}
+
+.laptops-container form .line-2 {
+    width: 888px;
+    height: 2px;
+    background-color: #C7C7C7;
+    margin: auto;
+    margin-top: 52px;
+}
+
+.laptops-container form .cpu-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 70px;
+}
+
+.laptops-container form .cpu-info .cpu {
+    width: 277px;
+    height: 60px;
+    background-color: #EBEBEB;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 8px;
+}
+
+.laptops-container form .cpu-info .cpu select {
+    width: 60px;
+    border: none;
+    background: none;
+}
+
+.laptops-container form .cpu-info .cpu-core h1 {
+    font-size: 18px;
+    font-family: 'Helvetica Neue';
+}
+
+.laptops-container form .cpu-info .cpu-core input {
+    width: 276px;
+    height: 60px;
+    border-radius: 8px;
+    margin: 10px 0;
+    border: 2px solid #8AC0E2;
+}
+
+::placeholder {
+    padding: 10px 0 0 10px;
+}
+
+.laptops-container form .cpu-info .cpu-core p {
+    color: #2E2E2E;
+    font-size: 14px;
+    font-family: 'Helvetica Neue';
+    font-weight: 300;
+}
+
+.laptops-container form .ram-info {
+    display: flex;
+    align-items: flex-start;
+    gap: 60px;
+    margin-left: 160px;
+    margin-top: 50px;
+}
+
+.laptops-container form .ram-info .ram h1,
+.laptops-container form .ram-info .memory-type h1,
+.laptops-container form .dates .date h1,
+.laptops-container form .dates .price h1,
+.laptops-container form .laptop h1 {
+    font-size: 18px;
+    font-family: 'Helvetica Neue';
+}
+
+.laptops-container form .ram-info .ram input,
+.laptops-container form .dates .date input,
+.laptops-container form .dates .price input {
+    width: 407px;
+    height: 60px;
+    border: 2px solid #62A1EB;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.laptops-container form .ram-info .memory-type .radios {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.laptops-container form .ram-info .memory-type input {
+    margin: 30px 0;
+}
+
+.laptops-container form .ram-info .ram p,
+.laptops-container form .dates .price p {
+    font-size: 14px;
+    font-family: 'Helvetica Neue';
+}
+
+.laptops-container form .dates {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 90px;
+    margin-top: 60px;
+}
+
+.laptops-container form .laptop {
+    margin-left: 160px;
+}
+
+.laptops-container form .laptop h1 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.laptops-container form .laptop .radios {
+    display: flex;
+    gap: 30px;
+}
+
+.popup-container {
+    width: 847px;
+    height: 537px;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 271px;
+    text-align: center;
+}
+
+.popup-container .popup .popup-links {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.popup-container .popup .popup-links a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Helvetica Neue';
+}
+
+.popup-container .popup .popup-links :first-child {
+    background-color: #62A1EB;
+    width: 297px;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 8px;
+}
+
+.popup-container .popup .popup-links :last-child {
+    margin-top: 10px;
+    color: #62A1EB;
+}
+
+header .title {
+    display: flex;
+    justify-content: center;
+}
+
+.list-container {
+    width: 1178px;
+    background-color: white;
+    height: 1080px;
+    margin: auto;
+    margin-top: 80px;
+}

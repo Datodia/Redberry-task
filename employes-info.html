@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="//db.onlinewebfonts.com/c/9da41c570d5a221cb2486d78769a076d?family=Neue+Helvetica" rel="stylesheet" type="text/css"/>
+    <link href="http://fonts.cdnfonts.com/css/helvetica-neue-9" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="back-btn">
+            <a href="index.html"><img src="assets/back-btn.svg" alt=""></a>
+        </div>
+        <div class="infos">
+            <a href="employes-info.html">თანამშრომლების ინფო</a>
+            <a href="laptops-info.html">ლეპტოპის მახასიათებლები</a>
+        </div>
+        <div class="line"></div>
+    </header>
+
+    <div class="emloyes-container">
+        <form id="empl-form" action="">
+            <div class="names">
+                <div class="name">
+                    <h1>სახელი</h1>
+                    <input id="nameInput" type="text" placeholder="გრიშა">
+                    <p>მინიმუმ 2 სიმბოლო, ქართული ასოები</p>
+                </div>
+                <div class="name">
+                    <h1>გვარი</h1>
+                    <input type="text" placeholder="ბაგრატიონი">
+                    <p>მინიმუმ 2 სიმბოლო, ქართული ასოები</p>
+                </div>
+            </div>
+
+            <div class="teams">
+                <label for="teams">თიმი</label>
+                <select list="teams" class="teams-select">
+                </select>
+            </div>
+            <div class="teams">
+                <label for="teams">პოზიცია</label>
+                <select list="teams" class="teams-select">
+                </select>
+            </div>
+
+            <div class="emails">
+                <div class="email">
+                    <h1>მეილი</h1>
+                    <input type="email" placeholder="grish666@redberry.ge">
+                    <p>უნდა მთავრდებოდეს @redberry.ge-ით</p>
+                </div>
+                <div class="email">
+                    <h1>ტელეფონის ნომერი</h1>
+                    <input type="email" placeholder="+995 598 00 07 01">
+                    <p>უნდა აკმაყოფილებდეს ქართული მობ-ნომრის ფორმატს</p>
+                </div>
+            </div>
+
+            <div class="next">
+                <a href="laptops-info.html">შემდეგი</a>
+            </div>
+
+            <footer>
+                <div class="rocketer-logo">
+                    <img src="assets/rocketer-logo.svg" alt="">
+                </div>
+            </footer>
+        </form>
+    </div>
+    
+    <script src="employes.js"></script>
+</body>
+</html>
