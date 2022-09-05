@@ -464,3 +464,10 @@ header .title {
     margin: auto;
     margin-top: 80px;
 }
+
+
+.laptops-container form .next a {
+    width: 160px;
+    height: 80px;
+    transform: translate(42px, 24px);
+}

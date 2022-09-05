@@ -26,69 +26,46 @@
     </header>
 
     <div class="emloyes-container">
-        <form id="empl-form" action="" onsubmit="return validate();">
+        <form id="empl-form" action="">
             <div class="names">
                 <div class="name">
                     <h1>სახელი</h1>
                     <input id="nameInput" type="text" placeholder="გრიშა">
-                    <span id="message1" style="color: red">
-                    </span>
-                    <span id="message3" style="color: red">
-                    </span>
                     <p>მინიმუმ 2 სიმბოლო, ქართული ასოები</p>
                 </div>
                 <div class="name">
                     <h1>გვარი</h1>
-                    <input type="text" placeholder="ბაგრატიონი" id="lastnameInput">
-                    <span id="message2" style="color: red">
-                    </span>
-                    <span id="message4" style="color: red">
-                    </span>
+                    <input type="text" placeholder="ბაგრატიონი">
                     <p>მინიმუმ 2 სიმბოლო, ქართული ასოები</p>
                 </div>
             </div>
 
             <div class="teams">
                 <label for="teams">თიმი</label>
-                <select list="teams" class="teams-select" id="ddlView1">
+                <select list="teams" class="teams-select">
                 </select>
-                <span id="message5" style="color: red">
-                </span>
             </div>
-
             <div class="teams">
                 <label for="teams">პოზიცია</label>
-                <select list="teams" class="teams-select" id="ddlView2">
+                <select list="teams" class="teams-select">
                 </select>
-                <span id="message6" style="color: red">
-                </span>
             </div>
 
-            <div class="contactInfo">
+            <div class="emails">
                 <div class="email">
                     <h1>მეილი</h1>
-                    <input type="email" placeholder="grish666@redberry.ge" id="email">
-                    <span id="message7" style="color: red">
-                    </span>
-                    <span id="message9" style="color: red">
-                    </span>
+                    <input type="email" placeholder="grish666@redberry.ge">
                     <p>უნდა მთავრდებოდეს @redberry.ge-ით</p>
                 </div>
-                <div class="contactNo">
+                <div class="email">
                     <h1>ტელეფონის ნომერი</h1>
-                    <input type="text" placeholder="+995 598 00 07 01" id="contactNo">
-                    <span id="message8" style="color: red">
-                    </span>
-                    <span id="message10" style="color: red">
-                    </span>
+                    <input type="email" placeholder="+995 598 00 07 01">
                     <p>უნდა აკმაყოფილებდეს ქართული მობ-ნომრის ფორმატს</p>
                 </div>
             </div>
-
             <div class="next">
                 <a href="laptops-info.html">შემდეგი</a>
             </div>
-
             <footer>
                 <div class="rocketer-logo">
                     <img src="assets/rocketer-logo.svg" alt="">
@@ -96,7 +73,7 @@
             </footer>
         </form>
     </div>
-    
+
     <script src="employes.js"></script>
 </body>
 </html>
